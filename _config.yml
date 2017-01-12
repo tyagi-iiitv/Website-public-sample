@@ -1,0 +1,41 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: anjultyagi
+google_analytics: dbyll
+title: Blog
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Blog|Personal Website|Home-Anjul Tyagi
+      display_title: Welcome home - Anjul Tyagi
+
+description: Personal website home page of Anjul Tyagi. I'm a student of Computer Science at IIIT Vadodara.
+author:
+  name: Anjul Tyagi
+  email: anjul.ten@gmail.com
+  github: tyagi-iiitv
+  # twitter: 
+  # pinterest: asd123
+  # linkedin: asd123
+  bio: Algorithmist and a researcher in Bioinformatics. Love open source.
+  email_md5: 147973749dac09fd19d45db5e7fb0f57
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
