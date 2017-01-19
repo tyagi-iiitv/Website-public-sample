@@ -1,18 +1,12 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
-	<a href="{{ site.BASE_PATH }}/">
+	<a href="{{ site.BASE_PATH }}/about-me.html">
 		<img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=100" class="img-circle" />
 	</a>
 	<h3 class="title">
         <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
     </h3>
 </header>
-
-{% if site.author.bio %}
-<div id="bio" class="text-center">
-	{{ site.author.bio }}
-</div>
-{% endif %}
 
 <div id="contact-list" class="text-center">
 	<ul class="list-unstyled list-inline">
@@ -60,4 +54,11 @@
 		</li>
 	</ul>
 </div>
+
+{% if site.author.bio %}
+<div id="bio" class="text-center">
+	{{ site.author.bio }}
+</div>
+{% endif %}
+
 <!-- sidebar.html end -->

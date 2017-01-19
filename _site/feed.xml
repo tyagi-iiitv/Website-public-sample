@@ -7,6 +7,19 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Github pages link to Crazy domains in 2 easy steps.</title>
+				<description>&lt;ul&gt;
+  &lt;li&gt;Add a CNAME file in the root directory.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;*Add two entries of A record and one entry for CNAME as shown.&lt;/p&gt;
+</description>
+				<pubDate>Tue, 12 Jan 2016 00:00:00 +0530</pubDate>
+				<link>/general%20hacks/2016/01/12/crazy-domains.html</link>
+				<guid isPermaLink="true">/general%20hacks/2016/01/12/crazy-domains.html</guid>
+			</item>
+		
+			<item>
 				<title>Hello World!</title>
 				<description>&lt;p&gt;&lt;strong&gt;dbyll&lt;/strong&gt; is minimalist, stylish theme for jekyll. Supports gravatar, account links (github, twitter, e-mail, pinterest, résume file) and a bio.&lt;/p&gt;
 

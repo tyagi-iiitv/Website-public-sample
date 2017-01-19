@@ -1,0 +1,8 @@
+# Create an About me to the Page containing (Some personal paragraph, Link to Git projects, Contact me form, And resume download and pdf view) and link it to the gravatar.
+# Remove the details about you from the sidebar and replace it with the details about the blog.
+# Add a search bar on the top right menu. Note that the search bar will the first option of the top right sidebar with a text field and a search button on the right of the text field. 
+# Add the search mechanism
+# Add the RSS feed mechanism
+# Change colors of the post titles .. Its all red and doesn't look good.
+# Create a page to showcase your published projects with the download links.
+# Add the links to view resume, projects (published and unpublished) on the top right menu.
