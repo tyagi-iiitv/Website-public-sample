@@ -1,4 +1,2 @@
-# Add the RSS feed mechanism
-# Change colors of the post titles .. Its all red and doesn't look good.
 # Create a page to showcase your published projects with the download links.
 # Add the links to view resume, projects (published and unpublished) on the top right menu.

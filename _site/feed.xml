@@ -2,22 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Blog</title>
-		<description>Personal website home page of Anjul Tyagi. I'm a student of Computer Science at IIIT Vadodara.</description>
+		<description>Some solutions to general coding problems and real-life hacks.</description>
 		<link>/</link>
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-		
-			<item>
-				<title>Github pages link to Crazy domains in 2 easy steps.</title>
-				<description>&lt;ul&gt;
-  &lt;li&gt;Add a CNAME file in the root directory.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;*Add two entries of A record and one entry for CNAME as shown.&lt;/p&gt;
-</description>
-				<pubDate>Tue, 12 Jan 2016 00:00:00 +0530</pubDate>
-				<link>/general%20hacks/2016/01/12/crazy-domains.html</link>
-				<guid isPermaLink="true">/general%20hacks/2016/01/12/crazy-domains.html</guid>
-			</item>
 		
 			<item>
 				<title>Hello World!</title>
@@ -69,17 +56,6 @@
 				<pubDate>Thu, 14 Nov 2013 00:00:00 +0530</pubDate>
 				<link>/general/demo/2013/11/14/sample.html</link>
 				<guid isPermaLink="true">/general/demo/2013/11/14/sample.html</guid>
-			</item>
-		
-			<item>
-				<title>Sample 2</title>
-				<description>&lt;p&gt;Lorem ipsum dolor sit amet,  consectetur adipisicing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,  sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet,  consectetur adipisicing elit,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,  sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-				<pubDate>Thu, 14 Nov 2013 00:00:00 +0530</pubDate>
-				<link>/general/demo/sample/2013/11/14/sample-2.html</link>
-				<guid isPermaLink="true">/general/demo/sample/2013/11/14/sample-2.html</guid>
 			</item>
 		
 	</channel>
