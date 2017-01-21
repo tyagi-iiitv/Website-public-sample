@@ -6,7 +6,6 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: codemyway-in
-google_analytics: dbyll
 title: Blog
 
 defaults:
