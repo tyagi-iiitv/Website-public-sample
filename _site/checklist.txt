@@ -1,4 +1,3 @@
-# Improve the looks of the search tabs on the sidebar and on the menu 
 # Set layout of the search results page to the normal theme style
 # Add the RSS feed mechanism
 # Change colors of the post titles .. Its all red and doesn't look good.
