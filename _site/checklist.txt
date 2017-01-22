@@ -1,3 +1,0 @@
-# Add 5 posts
-# Create a page to showcase your published projects with the download links.
-# Add the links to view resume, projects (published and unpublished) on the top right menu.
