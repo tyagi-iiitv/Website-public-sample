@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Link the crazy domains url to the github pages jekyll website.</title>
+	<title>Anoxic conditions promote specific-specific mutualism between gut microbes in silico.</title>
 	
-	<meta name="description" content="This post is about linking your github pages site to the crazy domains url in just 2 easy steps.">
+	<meta name="description" content="A summary of the paper by A. Heinken and Ines Thiele on community interaction of human-gut microbes with gut enterocytes based on different diets.">
 	
 	<meta name="author" content="Anjul Tyagi">
 
@@ -167,7 +167,7 @@
 
 	<div class="col-sm-10 col-sm-offset-2">
 		<div class="page-header">
-  <h1>Link the crazy domains url to the github pages jekyll website. </h1>
+  <h1>Anoxic conditions promote specific-specific mutualism between gut microbes in silico. </h1>
 </div>
 	
 <article>
@@ -176,35 +176,85 @@
 	 <span class="post-date">
 	   
 	   January 
-	   22nd,
+	   23rd,
 	     
 	   2017
 	 </span>
 	  <div class="article_body">
-	  <h3 id="prerequisites">Prerequisites</h3>
-<p>The following prerequisites are important as they filter the target audience for this article. However, you can still go through this article if you wish to understand how to link your github pages site to any custom url.</p>
+	  <h3 id="introduction">Introduction</h3>
+
+<p>This posts presents the summary of the paper by <strong>Almut Heinken</strong> and <strong>Ines Thiele</strong> published in 2015. You can also view the pdf of the  full paper <a href="https://www.dropbox.com/s/ok0074yv5qmomkq/Heinken2015Anoxic.pdf?dl=0">Heinken2015Anoxic</a>. Comment on this post if you want the supplementary material for this paper.</p>
+
+<p>Here we consider 11 representative gut microbes:</p>
 
 <ul>
-  <li>A <a href="crazydomains.com">Crazy Domains</a> url.</li>
-  <li>A <a href="https://pages.github.com/">Github Pages</a>  website.</li>
+  <li>B. thetaiotamicron VPI-5482</li>
+  <li>F. prausnitzii A2-165</li>
+  <li>L. plantarum WCFS1</li>
+  <li>L. lactis subsp. cremoris MG1363</li>
+  <li>S. thermophilus LMG18311</li>
+  <li>H. pylori 26695</li>
+  <li>K. pneumoniae MGH 78578</li>
+  <li>S. enterica subsp. typhimurium LT2</li>
+  <li>E. coli str. K-12 substr. MG1655</li>
+  <li>E. coli O157:H7 str. Sakai</li>
+  <li>E.coli O157:H7 str. EDL933</li>
 </ul>
 
-<h3 id="step-1-add-a-cname-file">Step 1: Add a cname file</h3>
-<ul>
-  <li>Create a “<strong>CNAME</strong>” file in the root directory of your github website. For this go to the root directory of your github site and click on “<strong>Create new file</strong>” option on the top of the page. Then type the file name as <strong>CNAME</strong> and type your url name as the content. Note that you don’t need to use http:// of www. See the sample <a href="https://github.com/tyagi-iiitv/tyagi-iiitv.github.io">on my github pages site.</a> for my website. My CNAME file contains <strong>codemyway.in</strong> without any spaces or any extra text.</li>
-  <li>Commit the changes and you’re done with STEP 1.</li>
-</ul>
+<p>The motive is to study the community behavior of these microbes pairwise and study whether their behavior lies in any of the following categories shown below:</p>
 
-<h3 id="step-2-link-your-site">Step 2: Link your site</h3>
+<p><img src="/assets/media/4.png" alt="Possible outcomes of microbe-microbe co-culture" title="Possible outcomes of microbe-microbe co-culture" /></p>
+
+<h3 id="details">Details</h3>
+<p>Four types of conditions that can appear inside the human gut are considered for the community behavior analysis of the microbes. These are:</p>
+
+<ol>
+  <li><strong>No Oxyger and without gut enterocytes interaction</strong>: This situation occurs in the large intestine proximity at the center of the lumen.</li>
+  <li><strong>No Oxygen and with gut enterocytes</strong>: This situation arises when the microbes get exposed to sloughed epithileal cells but still there is no oxygen because the microbes are far from the epithelial cell layer.</li>
+  <li><strong>With Oxygen and without gut enterocytes</strong>: This situation occurs at the mid point of the lumen in the duodenum where some oxygen swallowed with the food is present. This is in proximity of the stomach.</li>
+  <li><strong>With Oxygen and with gut enterocytes</strong>: When the microbes are close to the epithelial layer with oxygen dissipated by the enterocyte.</li>
+</ol>
+
 <ul>
-  <li>Log in to your crazy domains account and click on <strong>Domains</strong> under the My Account section.
-<img src="/assets/media/1.png" alt="Click on Domains" title="Click on Domains" /></li>
   <li>
-    <p>Scroll down to the <strong>DNS Settings</strong> section and Click on <strong>Add Record</strong>
- <img src="/assets/media/2.png" alt="Click on Add record" title="Click on Add record" /></p>
+    <p>The below diagram represents all of the above mentioned cases.</p>
   </li>
-  <li>You’ve to add 3 records as shown in the image below. Replace <strong>codemyway.in</strong> with your url and don’t change any other records. Add two <strong>A records</strong> pointing to the github pages server <strong>192.30.252.153</strong> and <strong>192.30.252.154</strong>. Then add a <strong>CNAME</strong> record as “www.your_url” which gets linked to ** yourusername.github.io ** which is the default url generated by github pages site. In case of project sites, the CNAME record should point to <strong>your_project_repo.github.io</strong>. 
-<img src="/assets/media/3.png" alt="Add these records" title="Add these records" /></li>
+  <li>
+    <p><img src="/assets/media/5.png" alt="Possible scenarios in the small intestine" title="Possible scenarios in the small intestine" /></p>
+  </li>
+</ul>
+
+<h3 id="methods-applied-for-simulations">Methods applied for simulations</h3>
+
+<ul>
+  <li>Host and microbes were joined through a separate compartment (u) sim-
+ulating the intestinal lumen. This compartment served as an inlet for
+nutrients derived from the simulated diet and the enterocyte; it allowed
+metabolite exchange between the microbes and provided an outlet for
+fermentation end products.</li>
+  <li>First the single models and then the community models were simulated in the above mentioned environments.</li>
+  <li>Each of these models were analyzed for three types of diets: <strong>Proteins, High fiber and Western.</strong></li>
+  <li>The Western diet was high in sugar and fat content but low in fiber content.</li>
+  <li>The High fiber diet was high in fiber content but low in simple sugar and fat content.</li>
+  <li>The protein diet had twice the protein content compared to other diets and had low fat content with moderate simple sugar and fiber content.</li>
+</ul>
+
+<h3 id="results">Results</h3>
+<p>The following graphs show the results obtained for each type of behavior based on 12 scenarios i.e. all the combinations of <strong>(three diets + With/Without Enterocytes + With/Without Oxygen).</strong></p>
+
+<ul>
+  <li>
+    <p>Total outcomes predicted for 55 microbe pairs subjected to 12 scenarios.
+<img src="/assets/media/6.png" alt="Pie chart of outcomes and percentage of models showing the behavior." title="Pie chart of outcomes and percentage of models showing the behavior." /></p>
+  </li>
+  <li>
+    <p>Microbe behavior when paired in all combinations in 12 scenarios for simulataneous growth optimizations.
+<img src="/assets/media/7.png" alt="Percentage behavior summed for each microbe." title="Percentage behavior summed for each microbe." /></p>
+  </li>
+  <li>
+    <p>Microbe-microbe co-culture outcomes, resolved by diet, oxygen status and enterocyte presence/absence.
+<img src="/assets/media/8.png" alt="Table showing the behavior in 12 scenarios." title="Table showing the behavior in 12 scenarios." /></p>
+  </li>
 </ul>
 
 
@@ -216,8 +266,8 @@
 		  
 		  
 			 
-				<li><a href="/categories.html#general-ref">
-					general <span>(1)</span>
+				<li><a href="/categories.html#Research-ref">
+					Research <span>(1)</span>
 					
 				</a></li>
 			
@@ -232,29 +282,15 @@
 		  
 			 
 				<li>
-					<a href="/tags.html#crazydomain-ref">
-					crazydomain <span>(1)</span>
+					<a href="/tags.html#human-gut-microbes-ref">
+					human-gut-microbes <span>(1)</span>
 					,
 					</a>
 				</li>
 			 
 				<li>
-					<a href="/tags.html#github-ref">
-					github <span>(1)</span>
-					,
-					</a>
-				</li>
-			 
-				<li>
-					<a href="/tags.html#github-pages-ref">
-					github-pages <span>(1)</span>
-					,
-					</a>
-				</li>
-			 
-				<li>
-					<a href="/tags.html#jekyll-ref">
-					jekyll <span>(1)</span>
+					<a href="/tags.html#systems-biology-ref">
+					systems-biology <span>(1)</span>
 					
 					</a>
 				</li>
@@ -269,7 +305,7 @@
 		<div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Link the crazy domains url to the github pages jekyll website."
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Anoxic conditions promote specific-specific mutualism between gut microbes in silico."
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
           Twitter
@@ -297,10 +333,10 @@
 
 		<ul class="pager">
 		  
-		  <li class="previous disabled"><a>&larr; Previous</a></li>
+		  <li class="previous"><a href="/general/2017/01/22/crazydomain-githubpages.html" title="Link the crazy domains url to the github pages jekyll website.">&larr; Previous</a></li>
 		  
 		  
-		  <li class="next"><a href="/research/2017/01/23/heinken2015.html" title="Anoxic conditions promote specific-specific mutualism between gut microbes in silico.">Next &rarr;</a></li>
+			<li class="next disabled"><a>Next &rarr;</a>
 		  
 		</ul>
 
@@ -343,7 +379,7 @@
 	</div>
 	<div class="col-sm-7 col-sm-offset-5">
 		<!-- <div class="page-header">
-  <h1>Link the crazy domains url to the github pages jekyll website. </h1>
+  <h1>Anoxic conditions promote specific-specific mutualism between gut microbes in silico. </h1>
 </div>
 	
 <article>
@@ -352,35 +388,85 @@
 	 <span class="post-date">
 	   
 	   January 
-	   22nd,
+	   23rd,
 	     
 	   2017
 	 </span>
 	  <div class="article_body">
-	  <h3 id="prerequisites">Prerequisites</h3>
-<p>The following prerequisites are important as they filter the target audience for this article. However, you can still go through this article if you wish to understand how to link your github pages site to any custom url.</p>
+	  <h3 id="introduction">Introduction</h3>
+
+<p>This posts presents the summary of the paper by <strong>Almut Heinken</strong> and <strong>Ines Thiele</strong> published in 2015. You can also view the pdf of the  full paper <a href="https://www.dropbox.com/s/ok0074yv5qmomkq/Heinken2015Anoxic.pdf?dl=0">Heinken2015Anoxic</a>. Comment on this post if you want the supplementary material for this paper.</p>
+
+<p>Here we consider 11 representative gut microbes:</p>
 
 <ul>
-  <li>A <a href="crazydomains.com">Crazy Domains</a> url.</li>
-  <li>A <a href="https://pages.github.com/">Github Pages</a>  website.</li>
+  <li>B. thetaiotamicron VPI-5482</li>
+  <li>F. prausnitzii A2-165</li>
+  <li>L. plantarum WCFS1</li>
+  <li>L. lactis subsp. cremoris MG1363</li>
+  <li>S. thermophilus LMG18311</li>
+  <li>H. pylori 26695</li>
+  <li>K. pneumoniae MGH 78578</li>
+  <li>S. enterica subsp. typhimurium LT2</li>
+  <li>E. coli str. K-12 substr. MG1655</li>
+  <li>E. coli O157:H7 str. Sakai</li>
+  <li>E.coli O157:H7 str. EDL933</li>
 </ul>
 
-<h3 id="step-1-add-a-cname-file">Step 1: Add a cname file</h3>
-<ul>
-  <li>Create a “<strong>CNAME</strong>” file in the root directory of your github website. For this go to the root directory of your github site and click on “<strong>Create new file</strong>” option on the top of the page. Then type the file name as <strong>CNAME</strong> and type your url name as the content. Note that you don’t need to use http:// of www. See the sample <a href="https://github.com/tyagi-iiitv/tyagi-iiitv.github.io">on my github pages site.</a> for my website. My CNAME file contains <strong>codemyway.in</strong> without any spaces or any extra text.</li>
-  <li>Commit the changes and you’re done with STEP 1.</li>
-</ul>
+<p>The motive is to study the community behavior of these microbes pairwise and study whether their behavior lies in any of the following categories shown below:</p>
 
-<h3 id="step-2-link-your-site">Step 2: Link your site</h3>
+<p><img src="/assets/media/4.png" alt="Possible outcomes of microbe-microbe co-culture" title="Possible outcomes of microbe-microbe co-culture" /></p>
+
+<h3 id="details">Details</h3>
+<p>Four types of conditions that can appear inside the human gut are considered for the community behavior analysis of the microbes. These are:</p>
+
+<ol>
+  <li><strong>No Oxyger and without gut enterocytes interaction</strong>: This situation occurs in the large intestine proximity at the center of the lumen.</li>
+  <li><strong>No Oxygen and with gut enterocytes</strong>: This situation arises when the microbes get exposed to sloughed epithileal cells but still there is no oxygen because the microbes are far from the epithelial cell layer.</li>
+  <li><strong>With Oxygen and without gut enterocytes</strong>: This situation occurs at the mid point of the lumen in the duodenum where some oxygen swallowed with the food is present. This is in proximity of the stomach.</li>
+  <li><strong>With Oxygen and with gut enterocytes</strong>: When the microbes are close to the epithelial layer with oxygen dissipated by the enterocyte.</li>
+</ol>
+
 <ul>
-  <li>Log in to your crazy domains account and click on <strong>Domains</strong> under the My Account section.
-<img src="/assets/media/1.png" alt="Click on Domains" title="Click on Domains" /></li>
   <li>
-    <p>Scroll down to the <strong>DNS Settings</strong> section and Click on <strong>Add Record</strong>
- <img src="/assets/media/2.png" alt="Click on Add record" title="Click on Add record" /></p>
+    <p>The below diagram represents all of the above mentioned cases.</p>
   </li>
-  <li>You’ve to add 3 records as shown in the image below. Replace <strong>codemyway.in</strong> with your url and don’t change any other records. Add two <strong>A records</strong> pointing to the github pages server <strong>192.30.252.153</strong> and <strong>192.30.252.154</strong>. Then add a <strong>CNAME</strong> record as “www.your_url” which gets linked to ** yourusername.github.io ** which is the default url generated by github pages site. In case of project sites, the CNAME record should point to <strong>your_project_repo.github.io</strong>. 
-<img src="/assets/media/3.png" alt="Add these records" title="Add these records" /></li>
+  <li>
+    <p><img src="/assets/media/5.png" alt="Possible scenarios in the small intestine" title="Possible scenarios in the small intestine" /></p>
+  </li>
+</ul>
+
+<h3 id="methods-applied-for-simulations">Methods applied for simulations</h3>
+
+<ul>
+  <li>Host and microbes were joined through a separate compartment (u) sim-
+ulating the intestinal lumen. This compartment served as an inlet for
+nutrients derived from the simulated diet and the enterocyte; it allowed
+metabolite exchange between the microbes and provided an outlet for
+fermentation end products.</li>
+  <li>First the single models and then the community models were simulated in the above mentioned environments.</li>
+  <li>Each of these models were analyzed for three types of diets: <strong>Proteins, High fiber and Western.</strong></li>
+  <li>The Western diet was high in sugar and fat content but low in fiber content.</li>
+  <li>The High fiber diet was high in fiber content but low in simple sugar and fat content.</li>
+  <li>The protein diet had twice the protein content compared to other diets and had low fat content with moderate simple sugar and fiber content.</li>
+</ul>
+
+<h3 id="results">Results</h3>
+<p>The following graphs show the results obtained for each type of behavior based on 12 scenarios i.e. all the combinations of <strong>(three diets + With/Without Enterocytes + With/Without Oxygen).</strong></p>
+
+<ul>
+  <li>
+    <p>Total outcomes predicted for 55 microbe pairs subjected to 12 scenarios.
+<img src="/assets/media/6.png" alt="Pie chart of outcomes and percentage of models showing the behavior." title="Pie chart of outcomes and percentage of models showing the behavior." /></p>
+  </li>
+  <li>
+    <p>Microbe behavior when paired in all combinations in 12 scenarios for simulataneous growth optimizations.
+<img src="/assets/media/7.png" alt="Percentage behavior summed for each microbe." title="Percentage behavior summed for each microbe." /></p>
+  </li>
+  <li>
+    <p>Microbe-microbe co-culture outcomes, resolved by diet, oxygen status and enterocyte presence/absence.
+<img src="/assets/media/8.png" alt="Table showing the behavior in 12 scenarios." title="Table showing the behavior in 12 scenarios." /></p>
+  </li>
 </ul>
 
 
@@ -392,8 +478,8 @@
 		  
 		  
 			 
-				<li><a href="/categories.html#general-ref">
-					general <span>(1)</span>
+				<li><a href="/categories.html#Research-ref">
+					Research <span>(1)</span>
 					
 				</a></li>
 			
@@ -408,29 +494,15 @@
 		  
 			 
 				<li>
-					<a href="/tags.html#crazydomain-ref">
-					crazydomain <span>(1)</span>
+					<a href="/tags.html#human-gut-microbes-ref">
+					human-gut-microbes <span>(1)</span>
 					,
 					</a>
 				</li>
 			 
 				<li>
-					<a href="/tags.html#github-ref">
-					github <span>(1)</span>
-					,
-					</a>
-				</li>
-			 
-				<li>
-					<a href="/tags.html#github-pages-ref">
-					github-pages <span>(1)</span>
-					,
-					</a>
-				</li>
-			 
-				<li>
-					<a href="/tags.html#jekyll-ref">
-					jekyll <span>(1)</span>
+					<a href="/tags.html#systems-biology-ref">
+					systems-biology <span>(1)</span>
 					
 					</a>
 				</li>
@@ -445,7 +517,7 @@
 		<div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Link the crazy domains url to the github pages jekyll website."
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Anoxic conditions promote specific-specific mutualism between gut microbes in silico."
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
           Twitter
@@ -473,10 +545,10 @@
 
 		<ul class="pager">
 		  
-		  <li class="previous disabled"><a>&larr; Previous</a></li>
+		  <li class="previous"><a href="/general/2017/01/22/crazydomain-githubpages.html" title="Link the crazy domains url to the github pages jekyll website.">&larr; Previous</a></li>
 		  
 		  
-		  <li class="next"><a href="/research/2017/01/23/heinken2015.html" title="Anoxic conditions promote specific-specific mutualism between gut microbes in silico.">Next &rarr;</a></li>
+			<li class="next disabled"><a>Next &rarr;</a>
 		  
 		</ul>
 

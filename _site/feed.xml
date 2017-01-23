@@ -7,6 +7,90 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Anoxic conditions promote specific-specific mutualism between gut microbes in silico.</title>
+				<description>&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;This posts presents the summary of the paper by &lt;strong&gt;Almut Heinken&lt;/strong&gt; and &lt;strong&gt;Ines Thiele&lt;/strong&gt; published in 2015. You can also view the pdf of the  full paper &lt;a href=&quot;https://www.dropbox.com/s/ok0074yv5qmomkq/Heinken2015Anoxic.pdf?dl=0&quot;&gt;Heinken2015Anoxic&lt;/a&gt;. Comment on this post if you want the supplementary material for this paper.&lt;/p&gt;
+
+&lt;p&gt;Here we consider 11 representative gut microbes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;B. thetaiotamicron VPI-5482&lt;/li&gt;
+  &lt;li&gt;F. prausnitzii A2-165&lt;/li&gt;
+  &lt;li&gt;L. plantarum WCFS1&lt;/li&gt;
+  &lt;li&gt;L. lactis subsp. cremoris MG1363&lt;/li&gt;
+  &lt;li&gt;S. thermophilus LMG18311&lt;/li&gt;
+  &lt;li&gt;H. pylori 26695&lt;/li&gt;
+  &lt;li&gt;K. pneumoniae MGH 78578&lt;/li&gt;
+  &lt;li&gt;S. enterica subsp. typhimurium LT2&lt;/li&gt;
+  &lt;li&gt;E. coli str. K-12 substr. MG1655&lt;/li&gt;
+  &lt;li&gt;E. coli O157:H7 str. Sakai&lt;/li&gt;
+  &lt;li&gt;E.coli O157:H7 str. EDL933&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The motive is to study the community behavior of these microbes pairwise and study whether their behavior lies in any of the following categories shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/media/4.png&quot; alt=&quot;Possible outcomes of microbe-microbe co-culture&quot; title=&quot;Possible outcomes of microbe-microbe co-culture&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;details&quot;&gt;Details&lt;/h3&gt;
+&lt;p&gt;Four types of conditions that can appear inside the human gut are considered for the community behavior analysis of the microbes. These are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;No Oxyger and without gut enterocytes interaction&lt;/strong&gt;: This situation occurs in the large intestine proximity at the center of the lumen.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;No Oxygen and with gut enterocytes&lt;/strong&gt;: This situation arises when the microbes get exposed to sloughed epithileal cells but still there is no oxygen because the microbes are far from the epithelial cell layer.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;With Oxygen and without gut enterocytes&lt;/strong&gt;: This situation occurs at the mid point of the lumen in the duodenum where some oxygen swallowed with the food is present. This is in proximity of the stomach.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;With Oxygen and with gut enterocytes&lt;/strong&gt;: When the microbes are close to the epithelial layer with oxygen dissipated by the enterocyte.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The below diagram represents all of the above mentioned cases.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/media/5.png&quot; alt=&quot;Possible scenarios in the small intestine&quot; title=&quot;Possible scenarios in the small intestine&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;methods-applied-for-simulations&quot;&gt;Methods applied for simulations&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Host and microbes were joined through a separate compartment (u) sim-
+ulating the intestinal lumen. This compartment served as an inlet for
+nutrients derived from the simulated diet and the enterocyte; it allowed
+metabolite exchange between the microbes and provided an outlet for
+fermentation end products.&lt;/li&gt;
+  &lt;li&gt;First the single models and then the community models were simulated in the above mentioned environments.&lt;/li&gt;
+  &lt;li&gt;Each of these models were analyzed for three types of diets: &lt;strong&gt;Proteins, High fiber and Western.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;The Western diet was high in sugar and fat content but low in fiber content.&lt;/li&gt;
+  &lt;li&gt;The High fiber diet was high in fiber content but low in simple sugar and fat content.&lt;/li&gt;
+  &lt;li&gt;The protein diet had twice the protein content compared to other diets and had low fat content with moderate simple sugar and fiber content.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;results&quot;&gt;Results&lt;/h3&gt;
+&lt;p&gt;The following graphs show the results obtained for each type of behavior based on 12 scenarios i.e. all the combinations of &lt;strong&gt;(three diets + With/Without Enterocytes + With/Without Oxygen).&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Total outcomes predicted for 55 microbe pairs subjected to 12 scenarios.
+&lt;img src=&quot;/assets/media/6.png&quot; alt=&quot;Pie chart of outcomes and percentage of models showing the behavior.&quot; title=&quot;Pie chart of outcomes and percentage of models showing the behavior.&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Microbe behavior when paired in all combinations in 12 scenarios for simulataneous growth optimizations.
+&lt;img src=&quot;/assets/media/7.png&quot; alt=&quot;Percentage behavior summed for each microbe.&quot; title=&quot;Percentage behavior summed for each microbe.&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Microbe-microbe co-culture outcomes, resolved by diet, oxygen status and enterocyte presence/absence.
+&lt;img src=&quot;/assets/media/8.png&quot; alt=&quot;Table showing the behavior in 12 scenarios.&quot; title=&quot;Table showing the behavior in 12 scenarios.&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Mon, 23 Jan 2017 00:00:00 +0530</pubDate>
+				<link>/research/2017/01/23/heinken2015.html</link>
+				<guid isPermaLink="true">/research/2017/01/23/heinken2015.html</guid>
+			</item>
+		
+			<item>
 				<title>Link the crazy domains url to the github pages jekyll website.</title>
 				<description>&lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h3&gt;
 &lt;p&gt;The following prerequisites are important as they filter the target audience for this article. However, you can still go through this article if you wish to understand how to link your github pages site to any custom url.&lt;/p&gt;
