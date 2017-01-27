@@ -7,6 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: codemyway-in
 title: Blog
+permalink: /:title
 
 defaults:
   -
