@@ -2,7 +2,7 @@
 layout: post
 title: Link the crazy domains url to the github pages jekyll website.
 description: This post is about linking your github pages site to the crazy domains url in just 2 easy steps.
-categories: [general]
+categories: [General]
 tags: [crazydomain, github, github-pages, jekyll]
 comments: true
 ---
