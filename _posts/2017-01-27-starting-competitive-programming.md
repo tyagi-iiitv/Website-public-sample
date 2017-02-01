@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting started with competitive programming.
-description: This post covers some good resources that you can use to learn and grow as a competitive programmer. It also shows how to play the catch up game if you're stuck and you feel that your progress is halted.
+description: This post covers some good resources that you can use to learn and grow as a competitive programmer in four phases. It also shows how to play the catch up game if you're stuck and you feel that your progress is halted. This step by step guide lists all the important resources which you can use in this jouney to speed up your growth. Resources maily comprise of competitive programming courses, algorithm courses and websites hosting competitions along with some good blog articles.
 categories: [Programming, General]
 tags: [competitive-programming]
 comments: true

@@ -15,7 +15,7 @@ defaults:
       path: "" # empty string for all files
     values:
       title: Blog|Personal Website|Home-Anjul Tyagi
-      display_title: Welcome home - Anjul Tyagi
+      display_title: All Posts
 
 description: Some solutions to general coding problems and real-life hacks.
 author:
