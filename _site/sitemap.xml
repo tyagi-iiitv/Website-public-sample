@@ -1,57 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>http://codemyway.in/</loc>
-  <lastmod>2017-01-27T06:17:06+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.00</priority>
+<loc>http://localhost:4000/crazydomain-githubpages</loc>
+<lastmod>2017-01-22T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>http://codemyway.in/about-me.html</loc>
-  <lastmod>2017-01-27T06:17:06+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/heinken2015</loc>
+<lastmod>2017-01-23T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>http://codemyway.in/categories.html</loc>
-  <lastmod>2017-01-27T06:17:06+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/starting-competitive-programming</loc>
+<lastmod>2017-01-27T00:00:00+05:30</lastmod>
 </url>
 <url>
-  <loc>http://codemyway.in/tags.html</loc>
-  <lastmod>2017-01-27T06:17:06+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/404.html</loc>
 </url>
 <url>
-  <loc>http://codemyway.in/search.html</loc>
-  <lastmod>2017-01-27T06:17:06+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/about-me</loc>
 </url>
 <url>
-  <loc>http://codemyway.in/starting-competitive-programming</loc>
-  <lastmod>2017-01-27T06:17:06+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/categories</loc>
 </url>
 <url>
-  <loc>http://codemyway.in/heinken2015</loc>
-  <lastmod>2017-01-27T06:17:06+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-  <loc>http://codemyway.in/crazydomain-githubpages</loc>
-  <lastmod>2017-01-27T06:17:06+00:00</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/search</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tags</loc>
+</url>
+<url>
+<loc>http://localhost:4000/googlef2c1192956a8e305.html</loc>
+<lastmod>2017-02-01T19:18:03+05:30</lastmod>
 </url>
 </urlset>
