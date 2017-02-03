@@ -24,7 +24,7 @@ In this stage, you know all about using the *fors and the ifs*. That's wonderful
 #### Resources
 - The [hackerearch code monk series](https://www.hackerearth.com/practice/codemonk/)  is a boon to the beginners with all the lessons, practice and contests at one place. Follow the lessons and you're good to go to the next phase. 
 - For trying some extra problems on your topics, [hackerrank](https://www.hackerrank.com/) is a good place to practice. They make the test cases available and you can see where your solutions go wrong.
-**Tip of advice: ** To see the solutions to the problems without losing points on hackerrank, *create accounts with two id's* and use one id to see the solution. However, you should only use this for learning and at least try working on the problem yourself for some time.
+**Tip of advice:** To see the solutions to the problems without losing points on hackerrank, *create accounts with two id's* and use one id to see the solution. However, you should only use this for learning and at least try working on the problem yourself for some time.
 
 ### Phase 3: The best blog to follow to gain expertise (topic wise).
 I've used this resource and I just loved it.

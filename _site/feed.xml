@@ -26,7 +26,7 @@
 &lt;ul&gt;
   &lt;li&gt;The &lt;a href=&quot;https://www.hackerearth.com/practice/codemonk/&quot;&gt;hackerearch code monk series&lt;/a&gt;  is a boon to the beginners with all the lessons, practice and contests at one place. Follow the lessons and you’re good to go to the next phase.&lt;/li&gt;
   &lt;li&gt;For trying some extra problems on your topics, &lt;a href=&quot;https://www.hackerrank.com/&quot;&gt;hackerrank&lt;/a&gt; is a good place to practice. They make the test cases available and you can see where your solutions go wrong.
-&lt;em&gt;*Tip of advice: ** To see the solutions to the problems without losing points on hackerrank, *create accounts with two id’s&lt;/em&gt; and use one id to see the solution. However, you should only use this for learning and at least try working on the problem yourself for some time.&lt;/li&gt;
+&lt;strong&gt;Tip of advice:&lt;/strong&gt; To see the solutions to the problems without losing points on hackerrank, &lt;em&gt;create accounts with two id’s&lt;/em&gt; and use one id to see the solution. However, you should only use this for learning and at least try working on the problem yourself for some time.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;phase-3-the-best-blog-to-follow-to-gain-expertise-topic-wise&quot;&gt;Phase 3: The best blog to follow to gain expertise (topic wise).&lt;/h3&gt;
@@ -87,7 +87,7 @@
 
 &lt;p&gt;The motive is to study the community behavior of these microbes pairwise and study whether their behavior lies in any of the following categories shown below:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/media/4.png&quot; alt=&quot;Possible outcomes of microbe-microbe co-culture&quot; title=&quot;Possible outcomes of microbe-microbe co-culture&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/media/community_behaviors.png&quot; alt=&quot;Possible outcomes of microbe-microbe co-culture&quot; title=&quot;Possible outcomes of microbe-microbe co-culture&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;details&quot;&gt;Details&lt;/h3&gt;
 &lt;p&gt;Four types of conditions that can appear inside the human gut are considered for the community behavior analysis of the microbes. These are:&lt;/p&gt;
@@ -103,7 +103,7 @@
   &lt;li&gt;
     &lt;p&gt;The below diagram represents all of the above mentioned cases.&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/assets/media/5.png&quot; alt=&quot;Possible scenarios in the small intestine&quot; title=&quot;Possible scenarios in the small intestine&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/media/human_gut.png&quot; alt=&quot;Possible scenarios in the small intestine&quot; title=&quot;Possible scenarios in the small intestine&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -129,17 +129,17 @@ fermentation end products.&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Total outcomes predicted for 55 microbe pairs subjected to 12 scenarios.&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/assets/media/6.png&quot; alt=&quot;Pie chart of outcomes and percentage of models showing the behavior.&quot; title=&quot;Pie chart of outcomes and percentage of models showing the behavior.&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/media/community_results.png&quot; alt=&quot;Pie chart of outcomes and percentage of models showing the behavior.&quot; title=&quot;Pie chart of outcomes and percentage of models showing the behavior.&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Microbe behavior when paired in all combinations in 12 scenarios for simulataneous growth optimizations.&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/assets/media/7.png&quot; alt=&quot;Percentage behavior summed for each microbe.&quot; title=&quot;Percentage behavior summed for each microbe.&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/media/microbe_results.png&quot; alt=&quot;Percentage behavior summed for each microbe.&quot; title=&quot;Percentage behavior summed for each microbe.&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Microbe-microbe co-culture outcomes, resolved by diet, oxygen status and enterocyte presence/absence.&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/assets/media/8.png&quot; alt=&quot;Table showing the behavior in 12 scenarios.&quot; title=&quot;Table showing the behavior in 12 scenarios.&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/media/diet_results.png&quot; alt=&quot;Table showing the behavior in 12 scenarios.&quot; title=&quot;Table showing the behavior in 12 scenarios.&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -170,17 +170,17 @@ fermentation end products.&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Log in to your crazy domains account and click on &lt;strong&gt;Domains&lt;/strong&gt; under the My Account section.&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/assets/media/1.png&quot; alt=&quot;Click on Domains&quot; title=&quot;Click on Domains&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/media/front_page_crazydomains.png&quot; alt=&quot;Click on Domains&quot; title=&quot;Click on Domains&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Scroll down to the &lt;strong&gt;DNS Settings&lt;/strong&gt; section and Click on &lt;strong&gt;Add Record&lt;/strong&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/assets/media/2.png&quot; alt=&quot;Click on Add record&quot; title=&quot;Click on Add record&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/media/a_record_window.png&quot; alt=&quot;Click on Add record&quot; title=&quot;Click on Add record&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;You’ve to add 3 records as shown in the image below. Replace &lt;strong&gt;codemyway.in&lt;/strong&gt; with your url and don’t change any other records. Add two &lt;strong&gt;A records&lt;/strong&gt; pointing to the github pages server &lt;strong&gt;192.30.252.153&lt;/strong&gt; and &lt;strong&gt;192.30.252.154&lt;/strong&gt;. Then add a &lt;strong&gt;CNAME&lt;/strong&gt; record as “www.your_url” which gets linked to ** yourusername.github.io ** which is the default url generated by github pages site. In case of project sites, the CNAME record should point to &lt;strong&gt;your_project_repo.github.io&lt;/strong&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/assets/media/3.png&quot; alt=&quot;Add these records&quot; title=&quot;Add these records&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;/assets/media/adding_records.png&quot; alt=&quot;Add these records&quot; title=&quot;Add these records&quot; /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
