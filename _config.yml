@@ -8,6 +8,7 @@ markdown: kramdown
 disqus: codemyway-in
 title: Blog
 projects: My Projects
+bugs: Bugs Squashed
 permalink: /:title
 
 defaults:

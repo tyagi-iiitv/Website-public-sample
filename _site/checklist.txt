@@ -1,1 +1,4 @@
-# SEO for your site.
+# Add the link to the projects of the side menu in mobile mode
+# Create a bugs squashed page
+# Get the email for your website
+# Get the PGP key 
