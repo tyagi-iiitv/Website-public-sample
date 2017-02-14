@@ -7,8 +7,8 @@ highlighter: rouge
 markdown: kramdown
 disqus: codemyway-in
 title: Blog
-projects: My Projects
-bugs: Bugs Squashed
+projects: Projects
+bugs: Open Source
 permalink: /:title
 
 defaults:
